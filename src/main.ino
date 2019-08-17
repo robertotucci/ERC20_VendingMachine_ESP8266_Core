@@ -232,7 +232,7 @@ void drawMenu()
   //display.clearDisplay();
   display.setTextColor(ILI9341_DARKGREEN, ILI9341_BLACK);
   display.setCursor(95, 0);
-  display.println("D.Token");
+  display.println(TITLE);
   display.drawFastHLine(0, 30, 320, ILI9341_WHITE); //BLACK
 
   if (last > (catalogueSize - 1))
